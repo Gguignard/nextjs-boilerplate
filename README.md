@@ -10,7 +10,11 @@ npm install
 yarn install
 # or
 pnpm install
-# then
+```
+
+then
+
+```bash
 npm run dev
 # or
 yarn dev
@@ -19,6 +23,30 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project structure
+
+The boilerplate comes with folders to help to organize your project. The folders we describe are the one below the `src` folder.
+
+### API
+
+Will contains all file related to API call. You should create one file for each controller you used (in case your backend is on micro-services architecture and you have the same controller for different micro-service. You can create a sub folder for each micro-service).
+
+### App
+
+Nextjs app folder see [Next.js Getting started](https://nextjs.org/docs/getting-started/installation).
+
+### Common
+
+Common code shared across the project.  
+Currently contains 2 folders.
+
+- components - React shared components
+- hooks - custom React hooks
+
+### Interfaces
+
+Contains all types & interfaces definitions for the project
 
 ## Learn More
 
