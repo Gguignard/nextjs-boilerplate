@@ -20,8 +20,8 @@
       }
     ],
     "paths": {
-      "@components/*": ["./src/common/components/*"],
-      "@hooks/*": ["./src/common/hooks/*"],
+      "@components/*": ["src/common/components/*"],
+      "@hooks/*": ["src/common/hooks/*"],
       "@/*": ["./*"]
     }
   },

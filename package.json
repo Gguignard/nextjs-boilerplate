@@ -1,32 +1,25 @@
 {
   "name": "project-base",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.11.0",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.0",
-    "next": "13.4.1",
-    "prettier": "^2.8.8",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass": "^1.62.1",
-    "typescript": "5.0.4"
-  },
-  "devDependencies": {
-    "@types/node": "20.1.2",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-boilerplate": "./create-app.js"
+    "create-next-template": "./bin/create-next-template.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^5.2.0",
+    "esm": "^3.2.25",
+    "execa": "^7.1.1",
+    "inquirer": "^9.2.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
   }
 }
