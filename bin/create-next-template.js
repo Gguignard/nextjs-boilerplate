@@ -20,7 +20,7 @@ const options = {
 };
 
 async function copyTemplateFiles(options) {
-  console.log("teost");
+  console.log("Copying...");
   return copy(options.templateDirectory, options.targetDirectory, {
     clobber: false,
   });
